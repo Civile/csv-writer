@@ -1,5 +1,5 @@
 {
-  "name": "csv-writer-pipe",
+  "name": "csv-writer-pipe-allowed",
   "version": "1.6.0",
   "description": "Convert objects/arrays into a CSV string or write them into a CSV file",
   "main": "dist/index.js",
