@@ -136,7 +136,7 @@ console.log(csvStringifier.stringifyRecords(records));
 
   * fieldDelimiter `<string>` (optional)
 
-      Default: `,`. Only either comma `,` or semicolon `;` is allowed.
+      Default: `,`. Only either comma `,` or semicolon `;` or `|` is allowed.
 
   * recordDelimiter `<string>` (optional)
 
@@ -181,7 +181,7 @@ console.log(csvStringifier.stringifyRecords(records));
 
   * fieldDelimiter `<string>` (optional)
 
-      Default: `,`. Only either comma `,` or semicolon `;` is allowed.
+      Default: `,`. Only either comma `,` or semicolon `;` or `|` is allowed.
 
   * recordDelimiter `<string>` (optional)
 
