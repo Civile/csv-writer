@@ -13,6 +13,7 @@ export abstract class FieldStringifier {
     }
 
     protected quoteField(field: string): string {
+        if(field.startsWith('"') && field.endsWith('"')) return field;
         return `"${field.replace(/"/g, '""')}"`
     }
 }
